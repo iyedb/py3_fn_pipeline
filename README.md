@@ -14,6 +14,6 @@ word_count = Pipeline(read_file).chain(count_words).apply('./pipes3.py')
 print(word_count)
 
 
-where read_file is a function that takes a file path name as param and returns a string
+where `read_file` is a function that takes a file path name as param and returns a string.
 
-count_words takes a string as input and returns the number of words it contains
+`count_words` takes a string as input and returns the number of words it contains.
