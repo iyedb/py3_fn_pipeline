@@ -6,12 +6,11 @@ Requires python3 for the way it uses exceptions
 
 
 ###Example:
-cat pipes3.py | wc -w can be written as:
+`cat pipes3.py | wc -w` can be written as:
 
-word_count = Pipeline(read_file).chain(count_words).apply('./pipes3.py')
+`word_count = Pipeline(read_file).chain(count_words).apply('./pipes3.py')`
 
-
-print(word_count)
+`print(word_count)`
 
 
 where `read_file` is a function that takes a file path name as param and returns a string.
